@@ -1,10 +1,402 @@
-{"input": {}, "latency": 0.0009639263153076172, "status_code": 404, "timestamp": "2025-07-15T08:02:07.091437"}
-{"input": {}, "latency": 0.00026488304138183594, "status_code": 404, "timestamp": "2025-07-15T08:02:07.176846"}
-{"input": {}, "latency": 0.0006859302520751953, "status_code": 404, "timestamp": "2025-07-15T08:03:15.200865"}
-{"input": {}, "latency": 0.0023469924926757812, "status_code": 200, "timestamp": "2025-07-15T08:05:46.616799"}
-{"input": {}, "latency": 0.0006899833679199219, "status_code": 200, "timestamp": "2025-07-15T08:05:49.025131"}
-{"input": {}, "latency": 0.0006709098815917969, "status_code": 200, "timestamp": "2025-07-15T08:06:00.588275"}
 {"input": {"feature1": 0.8, "feature2": 1.2}, "output": {"prediction": 0.357}, "latency": 0.11006498336791992, "status_code": 200, "timestamp": "2025-07-15T08:15:31.579060"}
-{"input": {}, "latency": 0.11532330513000488, "status_code": 200, "timestamp": "2025-07-15T08:15:31.580900"}
-{"input": {"feature1": 0.8, "feature2": 1.2}, "output": {"prediction": 0.228}, "latency": 0.0620579719543457, "status_code": 200, "timestamp": "2025-07-15T08:15:37.209581"}
-{"input": {}, "latency": 0.06319260597229004, "status_code": 200, "timestamp": "2025-07-15T08:15:37.210142"}
+{"input": {"feature1": 0.6, "feature2": 1.2}, "output": {"prediction": 0.228}, "latency": 0.0620579719543457, "status_code": 200, "timestamp": "2025-07-15T08:15:37.209581"}
+{"input": {"feature1": 0.7085087752708595, "feature2": 0.7091324065378127}, "output": {"prediction": 0.54}, "latency": 0.06722688674926758, "status_code": 200, "timestamp": "2025-07-15T10:14:04.252334"}
+{"input": {}, "latency": 0.07122278213500977, "status_code": 200, "timestamp": "2025-07-15T10:14:04.252807"}
+{"input": {"feature1": 0.7618702332066218, "feature2": 1.0212194642564123}, "output": {"prediction": 0.018}, "latency": 0.07997512817382812, "status_code": 200, "timestamp": "2025-07-15T10:14:04.442175"}
+{"input": {}, "latency": 0.08152222633361816, "status_code": 200, "timestamp": "2025-07-15T10:14:04.443002"}
+{"input": {"feature1": 0.926805093848204, "feature2": 0.7403563781439473}, "output": {"prediction": 0.075}, "latency": 0.03904104232788086, "status_code": 200, "timestamp": "2025-07-15T10:14:04.588609"}
+{"input": {}, "latency": 0.04050087928771973, "status_code": 200, "timestamp": "2025-07-15T10:14:04.589278"}
+{"input": {"feature1": 0.9807013890383377, "feature2": 1.0688807117633672}, "output": {"prediction": 0.594}, "latency": 0.054125070571899414, "status_code": 200, "timestamp": "2025-07-15T10:14:04.748111"}
+{"input": {}, "latency": 0.05515789985656738, "status_code": 200, "timestamp": "2025-07-15T10:14:04.748553"}
+{"input": {"feature1": 1.0098549571046325, "feature2": 0.9712229816787672}, "output": {"prediction": 0.896}, "latency": 0.0923459529876709, "status_code": 200, "timestamp": "2025-07-15T10:14:04.949322"}
+{"input": {}, "latency": 0.09340429306030273, "status_code": 200, "timestamp": "2025-07-15T10:14:04.949787"}
+{"input": {"feature1": 0.9647118751137606, "feature2": 1.2005649126862665}, "output": {"prediction": 0.613}, "latency": 0.026938676834106445, "status_code": 200, "timestamp": "2025-07-15T10:14:05.083584"}
+{"input": {}, "latency": 0.02795696258544922, "status_code": 200, "timestamp": "2025-07-15T10:14:05.084084"}
+{"input": {"feature1": 0.8460785796925456, "feature2": 0.9214187768603685}, "output": {"prediction": 0.566}, "latency": 0.0730748176574707, "status_code": 200, "timestamp": "2025-07-15T10:14:05.264828"}
+{"input": {}, "latency": 0.07422709465026855, "status_code": 200, "timestamp": "2025-07-15T10:14:05.265371"}
+{"input": {"feature1": 1.036868072242651, "feature2": 1.3236302608858337}, "output": {"prediction": 0.256}, "latency": 0.09202218055725098, "status_code": 200, "timestamp": "2025-07-15T10:14:05.461473"}
+{"input": {}, "latency": 0.09298014640808105, "status_code": 200, "timestamp": "2025-07-15T10:14:05.461903"}
+{"input": {"feature1": 1.1224820478421318, "feature2": 1.0158871838562344}, "output": {"prediction": 0.94}, "latency": 0.06528496742248535, "status_code": 200, "timestamp": "2025-07-15T10:14:05.634481"}
+{"input": {}, "latency": 0.0662679672241211, "status_code": 200, "timestamp": "2025-07-15T10:14:05.634988"}
+{"input": {"feature1": 1.054784931860958, "feature2": 1.2031840200607926}, "output": {"prediction": 0.949}, "latency": 0.08498501777648926, "status_code": 200, "timestamp": "2025-07-15T10:14:05.826129"}
+{"input": {}, "latency": 0.0859217643737793, "status_code": 200, "timestamp": "2025-07-15T10:14:05.826589"}
+{"input": {"feature1": 0.8922877210923938, "feature2": 0.9285559835013133}, "output": {"prediction": 0.756}, "latency": 0.06004619598388672, "status_code": 200, "timestamp": "2025-07-15T10:14:05.997492"}
+{"input": {}, "latency": 0.06153702735900879, "status_code": 200, "timestamp": "2025-07-15T10:14:05.998282"}
+{"input": {"feature1": 1.0423284032870148, "feature2": 1.2829042772686292}, "output": {"prediction": 0.282}, "latency": 0.049282073974609375, "status_code": 200, "timestamp": "2025-07-15T10:14:06.157533"}
+{"input": {}, "latency": 0.05054426193237305, "status_code": 200, "timestamp": "2025-07-15T10:14:06.158089"}
+{"input": {"feature1": 1.0215438183925891, "feature2": 1.393114012864269}, "output": {"prediction": 0.728}, "latency": 0.040235042572021484, "status_code": 200, "timestamp": "2025-07-15T10:14:06.302533"}
+{"input": {}, "latency": 0.04122185707092285, "status_code": 200, "timestamp": "2025-07-15T10:14:06.303041"}
+{"input": {"feature1": 0.7926011814811976, "feature2": 1.1882114238181976}, "output": {"prediction": 0.94}, "latency": 0.0948479175567627, "status_code": 200, "timestamp": "2025-07-15T10:14:06.505786"}
+{"input": {}, "latency": 0.09587502479553223, "status_code": 200, "timestamp": "2025-07-15T10:14:06.506285"}
+{"input": {"feature1": 0.9519746600194391, "feature2": 1.082074139711125}, "output": {"prediction": 0.135}, "latency": 0.08838415145874023, "status_code": 200, "timestamp": "2025-07-15T10:14:06.698988"}
+{"input": {}, "latency": 0.08960103988647461, "status_code": 200, "timestamp": "2025-07-15T10:14:06.699606"}
+{"input": {"feature1": 0.6420614055484022, "feature2": 1.0773805716235243}, "output": {"prediction": 0.656}, "latency": 0.06062006950378418, "status_code": 200, "timestamp": "2025-07-15T10:14:06.870775"}
+{"input": {}, "latency": 0.062296152114868164, "status_code": 200, "timestamp": "2025-07-15T10:14:06.871585"}
+{"input": {"feature1": 1.0995758525556933, "feature2": 0.7292806116520498}, "output": {"prediction": 0.357}, "latency": 0.052599191665649414, "status_code": 200, "timestamp": "2025-07-15T10:14:07.033292"}
+{"input": {}, "latency": 0.05357813835144043, "status_code": 200, "timestamp": "2025-07-15T10:14:07.033730"}
+{"input": {"feature1": 1.4386535718177464, "feature2": 0.9014298541666417}, "output": {"prediction": 0.788}, "latency": 0.0320131778717041, "status_code": 200, "timestamp": "2025-07-15T10:14:07.174875"}
+{"input": {}, "latency": 0.03308296203613281, "status_code": 200, "timestamp": "2025-07-15T10:14:07.175405"}
+{"input": {"feature1": 0.9912587060731488, "feature2": 1.2984328758614527}, "output": {"prediction": 0.602}, "latency": 0.09611701965332031, "status_code": 200, "timestamp": "2025-07-15T10:14:07.375174"}
+{"input": {}, "latency": 0.09711503982543945, "status_code": 200, "timestamp": "2025-07-15T10:14:07.375654"}
+{"input": {"feature1": 1.1472827898580533, "feature2": 0.9605567348296035}, "output": {"prediction": 0.93}, "latency": 0.014701128005981445, "status_code": 200, "timestamp": "2025-07-15T10:14:07.494253"}
+{"input": {}, "latency": 0.01604771614074707, "status_code": 200, "timestamp": "2025-07-15T10:14:07.495110"}
+{"input": {"feature1": 0.8840553648008248, "feature2": 1.0591275527746082}, "output": {"prediction": 0.626}, "latency": 0.08101892471313477, "status_code": 200, "timestamp": "2025-07-15T10:14:07.682155"}
+{"input": {}, "latency": 0.08251690864562988, "status_code": 200, "timestamp": "2025-07-15T10:14:07.682963"}
+{"input": {"feature1": 1.0333786089569856, "feature2": 0.5250488246370415}, "output": {"prediction": 0.814}, "latency": 0.053725242614746094, "status_code": 200, "timestamp": "2025-07-15T10:14:07.843572"}
+{"input": {}, "latency": 0.054750919342041016, "status_code": 200, "timestamp": "2025-07-15T10:14:07.844066"}
+{"input": {"feature1": 0.9260891898506353, "feature2": 0.6208667710995125}, "output": {"prediction": 0.752}, "latency": 0.06557631492614746, "status_code": 200, "timestamp": "2025-07-15T10:14:08.013630"}
+{"input": {}, "latency": 0.06658005714416504, "status_code": 200, "timestamp": "2025-07-15T10:14:08.014092"}
+{"input": {"feature1": 1.2044204852362506, "feature2": 0.7030002753561726}, "output": {"prediction": 0.1}, "latency": 0.09584903717041016, "status_code": 200, "timestamp": "2025-07-15T10:14:08.213937"}
+{"input": {}, "latency": 0.09682512283325195, "status_code": 200, "timestamp": "2025-07-15T10:14:08.214437"}
+{"input": {"feature1": 1.1707426465955777, "feature2": 0.8799057115311546}, "output": {"prediction": 0.732}, "latency": 0.024326801300048828, "status_code": 200, "timestamp": "2025-07-15T10:14:08.347993"}
+{"input": {}, "latency": 0.025976181030273438, "status_code": 200, "timestamp": "2025-07-15T10:14:08.349035"}
+{"input": {"feature1": 0.9560898559422766, "feature2": 1.4797150231281608}, "output": {"prediction": 0.232}, "latency": 0.09952807426452637, "status_code": 200, "timestamp": "2025-07-15T10:14:08.559611"}
+{"input": {}, "latency": 0.10069012641906738, "status_code": 200, "timestamp": "2025-07-15T10:14:08.560085"}
+{"input": {"feature1": 1.1598850872364797, "feature2": 1.024214677093707}, "output": {"prediction": 0.08}, "latency": 0.09847712516784668, "status_code": 200, "timestamp": "2025-07-15T10:14:08.765368"}
+{"input": {}, "latency": 0.09941697120666504, "status_code": 200, "timestamp": "2025-07-15T10:14:08.765838"}
+{"input": {"feature1": 0.9992110461052979, "feature2": 0.9506227063845989}, "output": {"prediction": 0.369}, "latency": 0.07473611831665039, "status_code": 200, "timestamp": "2025-07-15T10:14:08.947465"}
+{"input": {}, "latency": 0.07567310333251953, "status_code": 200, "timestamp": "2025-07-15T10:14:08.947930"}
+{"input": {"feature1": 1.1718611352422512, "feature2": 1.2415577790183951}, "output": {"prediction": 0.91}, "latency": 0.041912078857421875, "status_code": 200, "timestamp": "2025-07-15T10:14:09.097978"}
+{"input": {}, "latency": 0.04326224327087402, "status_code": 200, "timestamp": "2025-07-15T10:14:09.098615"}
+{"input": {"feature1": 0.9743440286874022, "feature2": 0.8937589307114718}, "output": {"prediction": 0.48}, "latency": 0.09502124786376953, "status_code": 200, "timestamp": "2025-07-15T10:14:09.298322"}
+{"input": {}, "latency": 0.09609389305114746, "status_code": 200, "timestamp": "2025-07-15T10:14:09.298862"}
+{"input": {"feature1": 0.7838518192238696, "feature2": 0.9972090015087478}, "output": {"prediction": 0.072}, "latency": 0.029868125915527344, "status_code": 200, "timestamp": "2025-07-15T10:14:09.433639"}
+{"input": {}, "latency": 0.031148910522460938, "status_code": 200, "timestamp": "2025-07-15T10:14:09.434189"}
+{"input": {"feature1": 1.040927607173564, "feature2": 0.878484542077907}, "output": {"prediction": 0.875}, "latency": 0.04021191596984863, "status_code": 200, "timestamp": "2025-07-15T10:14:09.579208"}
+{"input": {}, "latency": 0.041226863861083984, "status_code": 200, "timestamp": "2025-07-15T10:14:09.579668"}
+{"input": {"feature1": 1.065134910659874, "feature2": 0.8348824030829047}, "output": {"prediction": 0.711}, "latency": 0.09116125106811523, "status_code": 200, "timestamp": "2025-07-15T10:14:09.777237"}
+{"input": {}, "latency": 0.09227108955383301, "status_code": 200, "timestamp": "2025-07-15T10:14:09.777851"}
+{"input": {"feature1": 1.0720873765801588, "feature2": 1.0292235777148404}, "output": {"prediction": 0.429}, "latency": 0.07179403305053711, "status_code": 200, "timestamp": "2025-07-15T10:14:09.954563"}
+{"input": {}, "latency": 0.07344388961791992, "status_code": 200, "timestamp": "2025-07-15T10:14:09.955648"}
+{"input": {"feature1": 0.952382338788534, "feature2": 1.4132691896295317}, "output": {"prediction": 0.942}, "latency": 0.04097270965576172, "status_code": 200, "timestamp": "2025-07-15T10:14:10.103434"}
+{"input": {}, "latency": 0.04209017753601074, "status_code": 200, "timestamp": "2025-07-15T10:14:10.104052"}
+{"input": {"feature1": 0.8828814976130449, "feature2": 1.008876944813417}, "output": {"prediction": 0.963}, "latency": 0.03650689125061035, "status_code": 200, "timestamp": "2025-07-15T10:14:10.244550"}
+{"input": {}, "latency": 0.037543296813964844, "status_code": 200, "timestamp": "2025-07-15T10:14:10.245064"}
+{"input": {"feature1": 0.903009539471902, "feature2": 0.842164889008339}, "output": {"prediction": 0.604}, "latency": 0.03569293022155762, "status_code": 200, "timestamp": "2025-07-15T10:14:10.385929"}
+{"input": {}, "latency": 0.03718113899230957, "status_code": 200, "timestamp": "2025-07-15T10:14:10.386558"}
+{"input": {"feature1": 1.4886057561715123, "feature2": 1.1738966818941998}, "output": {"prediction": 0.407}, "latency": 0.03796815872192383, "status_code": 200, "timestamp": "2025-07-15T10:14:10.532990"}
+{"input": {}, "latency": 0.039154052734375, "status_code": 200, "timestamp": "2025-07-15T10:14:10.533638"}
+{"input": {"feature1": 0.9301337392400854, "feature2": 0.8740303925255994}, "output": {"prediction": 0.013}, "latency": 0.09644293785095215, "status_code": 200, "timestamp": "2025-07-15T10:14:10.738478"}
+{"input": {}, "latency": 0.09747886657714844, "status_code": 200, "timestamp": "2025-07-15T10:14:10.739025"}
+{"input": {"feature1": 1.2933615384806487, "feature2": 1.2552870227492643}, "output": {"prediction": 0.036}, "latency": 0.10296988487243652, "status_code": 200, "timestamp": "2025-07-15T10:14:10.949105"}
+{"input": {}, "latency": 0.10447382926940918, "status_code": 200, "timestamp": "2025-07-15T10:14:10.950069"}
+{"input": {"feature1": 1.0416317010291993, "feature2": 1.2795445384059083}, "output": {"prediction": 0.284}, "latency": 0.09660601615905762, "status_code": 200, "timestamp": "2025-07-15T10:14:11.152793"}
+{"input": {}, "latency": 0.09762406349182129, "status_code": 200, "timestamp": "2025-07-15T10:14:11.153233"}
+{"input": {"feature1": 0.7635768336003965, "feature2": 1.1927830427312534}, "output": {"prediction": 0.52}, "latency": 0.027112960815429688, "status_code": 200, "timestamp": "2025-07-15T10:14:11.284447"}
+{"input": {}, "latency": 0.028116941452026367, "status_code": 200, "timestamp": "2025-07-15T10:14:11.284865"}
+{"input": {"feature1": 1.2142385001454623, "feature2": 0.7062233103901219}, "output": {"prediction": 0.932}, "latency": 0.0989980697631836, "status_code": 200, "timestamp": "2025-07-15T10:14:11.488955"}
+{"input": {}, "latency": 0.09993696212768555, "status_code": 200, "timestamp": "2025-07-15T10:14:11.489423"}
+{"input": {"feature1": 0.9104444155774355, "feature2": 1.1715253891927402}, "output": {"prediction": 0.131}, "latency": 0.07006692886352539, "status_code": 200, "timestamp": "2025-07-15T10:14:11.667052"}
+{"input": {}, "latency": 0.07100486755371094, "status_code": 200, "timestamp": "2025-07-15T10:14:11.667521"}
+{"input": {"feature1": 1.376628419608768, "feature2": 1.214520702215463}, "output": {"prediction": 0.944}, "latency": 0.052259206771850586, "status_code": 200, "timestamp": "2025-07-15T10:14:11.828744"}
+{"input": {}, "latency": 0.05352210998535156, "status_code": 200, "timestamp": "2025-07-15T10:14:11.829449"}
+{"input": {"feature1": 1.0311570764995743, "feature2": 1.1066664300755775}, "output": {"prediction": 0.517}, "latency": 0.07904791831970215, "status_code": 200, "timestamp": "2025-07-15T10:14:12.013224"}
+{"input": {}, "latency": 0.08022499084472656, "status_code": 200, "timestamp": "2025-07-15T10:14:12.013929"}
+{"input": {"feature1": 0.9997249217465595, "feature2": 0.960233143976978}, "output": {"prediction": 0.167}, "latency": 0.10297584533691406, "status_code": 200, "timestamp": "2025-07-15T10:14:12.224794"}
+{"input": {}, "latency": 0.10391616821289062, "status_code": 200, "timestamp": "2025-07-15T10:14:12.225261"}
+{"input": {"feature1": 1.0220482175680452, "feature2": 0.6502944798782847}, "output": {"prediction": 0.3}, "latency": 0.053112030029296875, "status_code": 200, "timestamp": "2025-07-15T10:14:12.386950"}
+{"input": {}, "latency": 0.05421304702758789, "status_code": 200, "timestamp": "2025-07-15T10:14:12.387578"}
+{"input": {"feature1": 0.9238013790771904, "feature2": 1.2365759453927216}, "output": {"prediction": 0.943}, "latency": 0.07824516296386719, "status_code": 200, "timestamp": "2025-07-15T10:14:12.574714"}
+{"input": {}, "latency": 0.07927203178405762, "status_code": 200, "timestamp": "2025-07-15T10:14:12.575230"}
+{"input": {"feature1": 1.2786750841514463, "feature2": 0.7841398624541693}, "output": {"prediction": 0.048}, "latency": 0.024606943130493164, "status_code": 200, "timestamp": "2025-07-15T10:14:12.708569"}
+{"input": {}, "latency": 0.025643110275268555, "status_code": 200, "timestamp": "2025-07-15T10:14:12.708997"}
+{"input": {"feature1": 0.8220299466152274, "feature2": 0.9230492465364}, "output": {"prediction": 0.503}, "latency": 0.07091879844665527, "status_code": 200, "timestamp": "2025-07-15T10:14:12.885589"}
+{"input": {}, "latency": 0.07191801071166992, "status_code": 200, "timestamp": "2025-07-15T10:14:12.886052"}
+{"input": {"feature1": 1.0266011871046645, "feature2": 0.9485886985520033}, "output": {"prediction": 0.323}, "latency": 0.10294795036315918, "status_code": 200, "timestamp": "2025-07-15T10:14:13.094466"}
+{"input": {}, "latency": 0.10397195816040039, "status_code": 200, "timestamp": "2025-07-15T10:14:13.095009"}
+{"input": {"feature1": 1.027017569127083, "feature2": 0.8732230538569846}, "output": {"prediction": 0.276}, "latency": 0.0638887882232666, "status_code": 200, "timestamp": "2025-07-15T10:14:13.264124"}
+{"input": {}, "latency": 0.0649571418762207, "status_code": 200, "timestamp": "2025-07-15T10:14:13.264714"}
+{"input": {"feature1": 0.8443667719448436, "feature2": 1.2390498938694088}, "output": {"prediction": 0.669}, "latency": 0.08728981018066406, "status_code": 200, "timestamp": "2025-07-15T10:14:13.457934"}
+{"input": {}, "latency": 0.08823895454406738, "status_code": 200, "timestamp": "2025-07-15T10:14:13.458389"}
+{"input": {"feature1": 1.107323254579677, "feature2": 0.757428350032473}, "output": {"prediction": 0.793}, "latency": 0.09310507774353027, "status_code": 200, "timestamp": "2025-07-15T10:14:13.655703"}
+{"input": {}, "latency": 0.0942392349243164, "status_code": 200, "timestamp": "2025-07-15T10:14:13.656166"}
+{"input": {"feature1": 1.0883548066386188, "feature2": 0.8026879052449956}, "output": {"prediction": 0.043}, "latency": 0.05734705924987793, "status_code": 200, "timestamp": "2025-07-15T10:14:13.821485"}
+{"input": {}, "latency": 0.05842018127441406, "status_code": 200, "timestamp": "2025-07-15T10:14:13.822040"}
+{"input": {"feature1": 0.880669562520931, "feature2": 1.2112453938604566}, "output": {"prediction": 0.259}, "latency": 0.09877777099609375, "status_code": 200, "timestamp": "2025-07-15T10:14:14.025058"}
+{"input": {}, "latency": 0.09995913505554199, "status_code": 200, "timestamp": "2025-07-15T10:14:14.025746"}
+{"input": {"feature1": 1.2472212558941298, "feature2": 1.1376533342771586}, "output": {"prediction": 0.616}, "latency": 0.03044891357421875, "status_code": 200, "timestamp": "2025-07-15T10:14:14.161112"}
+{"input": {}, "latency": 0.03146982192993164, "status_code": 200, "timestamp": "2025-07-15T10:14:14.161644"}
+{"input": {"feature1": 1.0239282320823528, "feature2": 0.9996233287966444}, "output": {"prediction": 0.511}, "latency": 0.024721145629882812, "status_code": 200, "timestamp": "2025-07-15T10:14:14.290120"}
+{"input": {}, "latency": 0.025899171829223633, "status_code": 200, "timestamp": "2025-07-15T10:14:14.290786"}
+{"input": {"feature1": 1.025083968938037, "feature2": 0.8227723776259804}, "output": {"prediction": 0.412}, "latency": 0.07575702667236328, "status_code": 200, "timestamp": "2025-07-15T10:14:14.473929"}
+{"input": {}, "latency": 0.0767049789428711, "status_code": 200, "timestamp": "2025-07-15T10:14:14.474398"}
+{"input": {"feature1": 1.222310427806167, "feature2": 1.0773979738611528}, "output": {"prediction": 0.038}, "latency": 0.08266711235046387, "status_code": 200, "timestamp": "2025-07-15T10:14:14.661069"}
+{"input": {}, "latency": 0.08365583419799805, "status_code": 200, "timestamp": "2025-07-15T10:14:14.661577"}
+{"input": {"feature1": 0.9227390678107941, "feature2": 1.0149898061710956}, "output": {"prediction": 0.323}, "latency": 0.02818584442138672, "status_code": 200, "timestamp": "2025-07-15T10:14:14.794477"}
+{"input": {}, "latency": 0.029170989990234375, "status_code": 200, "timestamp": "2025-07-15T10:14:14.794957"}
+{"input": {"feature1": 1.0041702617135553, "feature2": 1.060588998290571}, "output": {"prediction": 0.457}, "latency": 0.06645393371582031, "status_code": 200, "timestamp": "2025-07-15T10:14:14.965221"}
+{"input": {}, "latency": 0.06755805015563965, "status_code": 200, "timestamp": "2025-07-15T10:14:14.965753"}
+{"input": {"feature1": 1.015217053872873, "feature2": 1.2837777473898488}, "output": {"prediction": 0.746}, "latency": 0.08993029594421387, "status_code": 200, "timestamp": "2025-07-15T10:14:15.164288"}
+{"input": {}, "latency": 0.09088993072509766, "status_code": 200, "timestamp": "2025-07-15T10:14:15.164762"}
+{"input": {"feature1": 0.8432023378918088, "feature2": 1.7819729186464957}, "output": {"prediction": 0.37}, "latency": 0.04720902442932129, "status_code": 200, "timestamp": "2025-07-15T10:14:15.319266"}
+{"input": {}, "latency": 0.04841899871826172, "status_code": 200, "timestamp": "2025-07-15T10:14:15.319960"}
+{"input": {"feature1": 0.7713626683074648, "feature2": 1.1978588859404316}, "output": {"prediction": 0.357}, "latency": 0.08327722549438477, "status_code": 200, "timestamp": "2025-07-15T10:14:15.507253"}
+{"input": {}, "latency": 0.08425617218017578, "status_code": 200, "timestamp": "2025-07-15T10:14:15.507735"}
+{"input": {"feature1": 0.9830358679843496, "feature2": 0.9207480955427816}, "output": {"prediction": 0.415}, "latency": 0.06156587600708008, "status_code": 200, "timestamp": "2025-07-15T10:14:15.673352"}
+{"input": {}, "latency": 0.06261396408081055, "status_code": 200, "timestamp": "2025-07-15T10:14:15.673918"}
+{"input": {"feature1": 0.9033852238362088, "feature2": 1.0472455640322391}, "output": {"prediction": 0.085}, "latency": 0.08844518661499023, "status_code": 200, "timestamp": "2025-07-15T10:14:15.867230"}
+{"input": {}, "latency": 0.08942103385925293, "status_code": 200, "timestamp": "2025-07-15T10:14:15.867695"}
+{"input": {"feature1": 1.0875370930495982, "feature2": 1.0121295829314092}, "output": {"prediction": 0.713}, "latency": 0.08837294578552246, "status_code": 200, "timestamp": "2025-07-15T10:14:16.060502"}
+{"input": {}, "latency": 0.08948397636413574, "status_code": 200, "timestamp": "2025-07-15T10:14:16.060962"}
+{"input": {"feature1": 1.2838377966087633, "feature2": 1.154128817972969}, "output": {"prediction": 0.69}, "latency": 0.035758018493652344, "status_code": 200, "timestamp": "2025-07-15T10:14:16.205199"}
+{"input": {}, "latency": 0.03689384460449219, "status_code": 200, "timestamp": "2025-07-15T10:14:16.205861"}
+{"input": {"feature1": 0.7868672301585895, "feature2": 1.093375473048651}, "output": {"prediction": 0.804}, "latency": 0.036972761154174805, "status_code": 200, "timestamp": "2025-07-15T10:14:16.347267"}
+{"input": {}, "latency": 0.03833818435668945, "status_code": 200, "timestamp": "2025-07-15T10:14:16.347771"}
+{"input": {"feature1": 1.0768324736221837, "feature2": 1.152119384282081}, "output": {"prediction": 0.391}, "latency": 0.03133392333984375, "status_code": 200, "timestamp": "2025-07-15T10:14:16.483897"}
+{"input": {}, "latency": 0.03260493278503418, "status_code": 200, "timestamp": "2025-07-15T10:14:16.484584"}
+{"input": {"feature1": 0.9193091934632506, "feature2": 1.461412727773637}, "output": {"prediction": 0.958}, "latency": 0.07589983940124512, "status_code": 200, "timestamp": "2025-07-15T10:14:16.665135"}
+{"input": {}, "latency": 0.07697105407714844, "status_code": 200, "timestamp": "2025-07-15T10:14:16.665664"}
+{"input": {"feature1": 0.6594371082329088, "feature2": 1.0721324057281196}, "output": {"prediction": 0.325}, "latency": 0.0966501235961914, "status_code": 200, "timestamp": "2025-07-15T10:14:16.868556"}
+{"input": {}, "latency": 0.09772968292236328, "status_code": 200, "timestamp": "2025-07-15T10:14:16.869022"}
+{"input": {"feature1": 0.5792943757049536, "feature2": 1.2286554856541132}, "output": {"prediction": 0.328}, "latency": 0.017087936401367188, "status_code": 200, "timestamp": "2025-07-15T10:14:16.990317"}
+{"input": {}, "latency": 0.018146991729736328, "status_code": 200, "timestamp": "2025-07-15T10:14:16.990785"}
+{"input": {"feature1": 1.0992330285093963, "feature2": 1.1357006163722538}, "output": {"prediction": 0.941}, "latency": 0.0832529067993164, "status_code": 200, "timestamp": "2025-07-15T10:14:17.179897"}
+{"input": {}, "latency": 0.0842130184173584, "status_code": 200, "timestamp": "2025-07-15T10:14:17.180377"}
+{"input": {"feature1": 1.1758907350642003, "feature2": 0.9543802836738418}, "output": {"prediction": 0.237}, "latency": 0.07173895835876465, "status_code": 200, "timestamp": "2025-07-15T10:14:17.359624"}
+{"input": {}, "latency": 0.07277703285217285, "status_code": 200, "timestamp": "2025-07-15T10:14:17.360163"}
+{"input": {"feature1": 1.2945110594313383, "feature2": 1.367991336051789}, "output": {"prediction": 0.085}, "latency": 0.07187795639038086, "status_code": 200, "timestamp": "2025-07-15T10:14:17.540463"}
+{"input": {}, "latency": 0.07288002967834473, "status_code": 200, "timestamp": "2025-07-15T10:14:17.540985"}
+{"input": {"feature1": 1.1914459708752676, "feature2": 1.1257160255916567}, "output": {"prediction": 0.622}, "latency": 0.08826684951782227, "status_code": 200, "timestamp": "2025-07-15T10:14:17.733201"}
+{"input": {}, "latency": 0.08939599990844727, "status_code": 200, "timestamp": "2025-07-15T10:14:17.733675"}
+{"input": {"feature1": 1.0095407572319244, "feature2": 0.8556804205867155}, "output": {"prediction": 0.08}, "latency": 0.09689497947692871, "status_code": 200, "timestamp": "2025-07-15T10:14:17.935779"}
+{"input": {}, "latency": 0.09826993942260742, "status_code": 200, "timestamp": "2025-07-15T10:14:17.936253"}
+{"input": {"feature1": 1.1534366979981199, "feature2": 0.5645278833351621}, "output": {"prediction": 0.311}, "latency": 0.04632306098937988, "status_code": 200, "timestamp": "2025-07-15T10:14:18.089420"}
+{"input": {}, "latency": 0.047505855560302734, "status_code": 200, "timestamp": "2025-07-15T10:14:18.090112"}
+{"input": {"feature1": 1.315567319695887, "feature2": 0.9896982651754065}, "output": {"prediction": 0.581}, "latency": 0.08427596092224121, "status_code": 200, "timestamp": "2025-07-15T10:14:18.282660"}
+{"input": {}, "latency": 0.08541202545166016, "status_code": 200, "timestamp": "2025-07-15T10:14:18.283343"}
+{"input": {"feature1": 0.8174683652825001, "feature2": 0.7384122272326057}, "output": {"prediction": 0.473}, "latency": 0.049217939376831055, "status_code": 200, "timestamp": "2025-07-15T10:14:18.436944"}
+{"input": {}, "latency": 0.05030703544616699, "status_code": 200, "timestamp": "2025-07-15T10:14:18.437475"}
+{"input": {"feature1": 0.951180485368387, "feature2": 0.9314571437253295}, "output": {"prediction": 0.554}, "latency": 0.022575855255126953, "status_code": 200, "timestamp": "2025-07-15T10:14:18.566230"}
+{"input": {}, "latency": 0.023530006408691406, "status_code": 200, "timestamp": "2025-07-15T10:14:18.566703"}
+{"input": {"feature1": 0.6726105433042746, "feature2": 0.9063014295912155}, "output": {"prediction": 0.784}, "latency": 0.06993913650512695, "status_code": 200, "timestamp": "2025-07-15T10:14:18.742813"}
+{"input": {}, "latency": 0.0708930492401123, "status_code": 200, "timestamp": "2025-07-15T10:14:18.743333"}
+{"input": {"feature1": 1.1670447668998507, "feature2": 0.9688432185271202}, "output": {"prediction": 0.151}, "latency": 0.05821585655212402, "status_code": 200, "timestamp": "2025-07-15T10:14:18.906008"}
+{"input": {}, "latency": 0.059149980545043945, "status_code": 200, "timestamp": "2025-07-15T10:14:18.906454"}
+{"input": {"feature1": 0.7805716125887302, "feature2": 0.8520745743705598}, "output": {"prediction": 0.729}, "latency": 0.10080790519714355, "status_code": 200, "timestamp": "2025-07-15T10:14:19.111685"}
+{"input": {}, "latency": 0.10178208351135254, "status_code": 200, "timestamp": "2025-07-15T10:14:19.112167"}
+{"input": {"feature1": 0.6623749467712641, "feature2": 0.9033674659945164}, "output": {"prediction": 0.624}, "latency": 0.06019401550292969, "status_code": 200, "timestamp": "2025-07-15T10:14:19.281596"}
+{"input": {}, "latency": 0.06157112121582031, "status_code": 200, "timestamp": "2025-07-15T10:14:19.282204"}
+{"input": {"feature1": 0.8967658411073776, "feature2": 0.94299384749355}, "output": {"prediction": 0.46}, "latency": 0.07530689239501953, "status_code": 200, "timestamp": "2025-07-15T10:14:19.461603"}
+{"input": {}, "latency": 0.07626700401306152, "status_code": 200, "timestamp": "2025-07-15T10:14:19.462070"}
+{"input": {"feature1": 1.145420378504239, "feature2": 0.9244332838294914}, "output": {"prediction": 0.454}, "latency": 0.04822707176208496, "status_code": 200, "timestamp": "2025-07-15T10:14:19.614459"}
+{"input": {}, "latency": 0.04937911033630371, "status_code": 200, "timestamp": "2025-07-15T10:14:19.615124"}
+{"input": {"feature1": 1.292616835410752, "feature2": 1.0039556514978736}, "output": {"prediction": 0.666}, "latency": 0.1038820743560791, "status_code": 200, "timestamp": "2025-07-15T10:14:19.826644"}
+{"input": {}, "latency": 0.10599589347839355, "status_code": 200, "timestamp": "2025-07-15T10:14:19.827947"}
+{"input": {"feature1": 0.8558982366455828, "feature2": 0.5335828458118714}, "output": {"prediction": 0.633}, "latency": 0.0890970230102539, "status_code": 200, "timestamp": "2025-07-15T10:14:20.024334"}
+{"input": {}, "latency": 0.09037184715270996, "status_code": 200, "timestamp": "2025-07-15T10:14:20.025002"}
+{"input": {"feature1": 0.9972804209193172, "feature2": 0.9706512857688283}, "output": {"prediction": 0.956}, "latency": 0.10284900665283203, "status_code": 200, "timestamp": "2025-07-15T10:14:20.232648"}
+{"input": {}, "latency": 0.10377907752990723, "status_code": 200, "timestamp": "2025-07-15T10:14:20.233103"}
+{"input": {"feature1": 0.821833863319015, "feature2": 0.8154539525670108}, "output": {"prediction": 0.619}, "latency": 0.07432007789611816, "status_code": 200, "timestamp": "2025-07-15T10:14:20.411607"}
+{"input": {}, "latency": 0.07584381103515625, "status_code": 200, "timestamp": "2025-07-15T10:14:20.412544"}
+{"input": {"feature1": 1.1694257354018414, "feature2": 1.2006219842065025}, "output": {"prediction": 0.489}, "latency": 0.022231101989746094, "status_code": 200, "timestamp": "2025-07-15T10:14:20.540908"}
+{"input": {}, "latency": 0.023854970932006836, "status_code": 200, "timestamp": "2025-07-15T10:14:20.541652"}
+{"input": {"feature1": 1.3116926292808848, "feature2": 0.7416932046526095}, "output": {"prediction": 0.68}, "latency": 0.05646061897277832, "status_code": 200, "timestamp": "2025-07-15T10:14:20.706902"}
+{"input": {}, "latency": 0.05744600296020508, "status_code": 200, "timestamp": "2025-07-15T10:14:20.707405"}
+{"input": {"feature1": 1.146269681235914, "feature2": 0.8186944023003588}, "output": {"prediction": 0.359}, "latency": 0.05721402168273926, "status_code": 200, "timestamp": "2025-07-15T10:14:20.868152"}
+{"input": {}, "latency": 0.05821490287780762, "status_code": 200, "timestamp": "2025-07-15T10:14:20.868673"}
+{"input": {"feature1": 1.3262298474175171, "feature2": 0.7662138902114322}, "output": {"prediction": 0.57}, "latency": 0.01855015754699707, "status_code": 200, "timestamp": "2025-07-15T10:14:20.990977"}
+{"input": {}, "latency": 0.019484996795654297, "status_code": 200, "timestamp": "2025-07-15T10:14:20.991415"}
+{"input": {"feature1": 0.8768439105315438, "feature2": 0.9539111819384025}, "output": {"prediction": 0.01}, "latency": 0.016189098358154297, "status_code": 200, "timestamp": "2025-07-15T10:14:21.114235"}
+{"input": {}, "latency": 0.0174410343170166, "status_code": 200, "timestamp": "2025-07-15T10:14:21.115003"}
+{"input": {"feature1": 1.212970356213856, "feature2": 0.9233911322196607}, "output": {"prediction": 0.093}, "latency": 0.02370905876159668, "status_code": 200, "timestamp": "2025-07-15T10:14:21.244600"}
+{"input": {}, "latency": 0.024828195571899414, "status_code": 200, "timestamp": "2025-07-15T10:14:21.245241"}
+{"input": {"feature1": 0.9130437280121173, "feature2": 3.0421713570345306}, "output": {"prediction": 0.915}, "latency": 0.0381159782409668, "status_code": 200, "timestamp": "2025-07-15T10:14:21.390459"}
+{"input": {}, "latency": 0.039275169372558594, "status_code": 200, "timestamp": "2025-07-15T10:14:21.390988"}
+{"input": {"feature1": 1.050450944968941, "feature2": 2.7905344712258056}, "output": {"prediction": 0.944}, "latency": 0.07867789268493652, "status_code": 200, "timestamp": "2025-07-15T10:14:21.573551"}
+{"input": {}, "latency": 0.07977890968322754, "status_code": 200, "timestamp": "2025-07-15T10:14:21.574104"}
+{"input": {"feature1": 0.7126300021129026, "feature2": 3.1533143290103047}, "output": {"prediction": 0.358}, "latency": 0.09569716453552246, "status_code": 200, "timestamp": "2025-07-15T10:14:21.776062"}
+{"input": {}, "latency": 0.09670186042785645, "status_code": 200, "timestamp": "2025-07-15T10:14:21.776569"}
+{"input": {"feature1": 0.7114917933363804, "feature2": 2.9392115686535134}, "output": {"prediction": 0.994}, "latency": 0.05673503875732422, "status_code": 200, "timestamp": "2025-07-15T10:14:21.938220"}
+{"input": {}, "latency": 0.057743072509765625, "status_code": 200, "timestamp": "2025-07-15T10:14:21.938713"}
+{"input": {"feature1": 1.1014022900578162, "feature2": 3.1864568215816793}, "output": {"prediction": 0.891}, "latency": 0.052947998046875, "status_code": 200, "timestamp": "2025-07-15T10:14:22.099297"}
+{"input": {}, "latency": 0.05415511131286621, "status_code": 200, "timestamp": "2025-07-15T10:14:22.100013"}
+{"input": {"feature1": 1.2184504606205795, "feature2": 2.7093207603683576}, "output": {"prediction": 0.78}, "latency": 0.03948402404785156, "status_code": 200, "timestamp": "2025-07-15T10:14:22.245424"}
+{"input": {}, "latency": 0.04081583023071289, "status_code": 200, "timestamp": "2025-07-15T10:14:22.246223"}
+{"input": {"feature1": 0.9744832235302748, "feature2": 2.9765112904151865}, "output": {"prediction": 0.375}, "latency": 0.025058984756469727, "status_code": 200, "timestamp": "2025-07-15T10:14:22.378224"}
+{"input": {}, "latency": 0.026051044464111328, "status_code": 200, "timestamp": "2025-07-15T10:14:22.378734"}
+{"input": {"feature1": 0.9162962695961554, "feature2": 3.78219976942884}, "output": {"prediction": 0.437}, "latency": 0.09310507774353027, "status_code": 200, "timestamp": "2025-07-15T10:14:22.577512"}
+{"input": {}, "latency": 0.09411311149597168, "status_code": 200, "timestamp": "2025-07-15T10:14:22.577994"}
+{"input": {"feature1": 0.9524318586465201, "feature2": 3.8650757116868024}, "output": {"prediction": 0.578}, "latency": 0.07760429382324219, "status_code": 200, "timestamp": "2025-07-15T10:14:22.761585"}
+{"input": {}, "latency": 0.07865381240844727, "status_code": 200, "timestamp": "2025-07-15T10:14:22.762147"}
+{"input": {"feature1": 1.1439437190809087, "feature2": 3.799108626851746}, "output": {"prediction": 0.579}, "latency": 0.057842254638671875, "status_code": 200, "timestamp": "2025-07-15T10:14:22.924596"}
+{"input": {}, "latency": 0.05898308753967285, "status_code": 200, "timestamp": "2025-07-15T10:14:22.925178"}
+{"input": {"feature1": 1.1809559688080034, "feature2": 3.040009608399658}, "output": {"prediction": 0.108}, "latency": 0.07879519462585449, "status_code": 200, "timestamp": "2025-07-15T10:14:23.110818"}
+{"input": {}, "latency": 0.07989287376403809, "status_code": 200, "timestamp": "2025-07-15T10:14:23.111335"}
+{"input": {"feature1": 0.7785250514969562, "feature2": 2.8007874823690133}, "output": {"prediction": 0.512}, "latency": 0.10058093070983887, "status_code": 200, "timestamp": "2025-07-15T10:14:23.318956"}
+{"input": {}, "latency": 0.10154962539672852, "status_code": 200, "timestamp": "2025-07-15T10:14:23.319433"}
+{"input": {"feature1": 1.088106175853902, "feature2": 3.7547133418774243}, "output": {"prediction": 0.375}, "latency": 0.04312419891357422, "status_code": 200, "timestamp": "2025-07-15T10:14:23.470991"}
+{"input": {}, "latency": 0.04403209686279297, "status_code": 200, "timestamp": "2025-07-15T10:14:23.471435"}
+{"input": {"feature1": 0.8446768456087164, "feature2": 1.5590305382907794}, "output": {"prediction": 0.663}, "latency": 0.10253214836120605, "status_code": 200, "timestamp": "2025-07-15T10:14:23.682758"}
+{"input": {}, "latency": 0.10361599922180176, "status_code": 200, "timestamp": "2025-07-15T10:14:23.683367"}
+{"input": {"feature1": 0.6821440930762255, "feature2": 2.9605537372199864}, "output": {"prediction": 0.861}, "latency": 0.07236504554748535, "status_code": 200, "timestamp": "2025-07-15T10:14:23.859865"}
+{"input": {}, "latency": 0.0735170841217041, "status_code": 200, "timestamp": "2025-07-15T10:14:23.860484"}
+{"input": {"feature1": 0.8084329675434839, "feature2": 2.6992356987898836}, "output": {"prediction": 0.909}, "latency": 0.07375407218933105, "status_code": 200, "timestamp": "2025-07-15T10:14:24.040253"}
+{"input": {}, "latency": 0.07481813430786133, "status_code": 200, "timestamp": "2025-07-15T10:14:24.040831"}
+{"input": {"feature1": 1.2069456951113255, "feature2": 2.5309604859680976}, "output": {"prediction": 0.714}, "latency": 0.040452003479003906, "status_code": 200, "timestamp": "2025-07-15T10:14:24.186934"}
+{"input": {}, "latency": 0.04154181480407715, "status_code": 200, "timestamp": "2025-07-15T10:14:24.187494"}
+{"input": {"feature1": 0.8950737338508528, "feature2": 3.0427035589175992}, "output": {"prediction": 0.167}, "latency": 0.06392812728881836, "status_code": 200, "timestamp": "2025-07-15T10:14:24.357800"}
+{"input": {}, "latency": 0.06494998931884766, "status_code": 200, "timestamp": "2025-07-15T10:14:24.358303"}
+{"input": {"feature1": 1.0098319255437875, "feature2": 3.239876090221626}, "output": {"prediction": 0.349}, "latency": 0.05956578254699707, "status_code": 200, "timestamp": "2025-07-15T10:14:24.521762"}
+{"input": {}, "latency": 0.060517072677612305, "status_code": 200, "timestamp": "2025-07-15T10:14:24.522231"}
+{"input": {"feature1": 1.0548522616722145, "feature2": 3.610036749149283}, "output": {"prediction": 0.082}, "latency": 0.10445880889892578, "status_code": 200, "timestamp": "2025-07-15T10:14:24.732413"}
+{"input": {}, "latency": 0.10541224479675293, "status_code": 200, "timestamp": "2025-07-15T10:14:24.732887"}
+{"input": {"feature1": 1.0746208489669322, "feature2": 3.6423663736580103}, "output": {"prediction": 0.285}, "latency": 0.0988929271697998, "status_code": 200, "timestamp": "2025-07-15T10:14:24.939309"}
+{"input": {}, "latency": 0.10010194778442383, "status_code": 200, "timestamp": "2025-07-15T10:14:24.939973"}
+{"input": {"feature1": 1.000547241144723, "feature2": 3.933623825785453}, "output": {"prediction": 0.87}, "latency": 0.0525970458984375, "status_code": 200, "timestamp": "2025-07-15T10:14:25.102239"}
+{"input": {}, "latency": 0.05395698547363281, "status_code": 200, "timestamp": "2025-07-15T10:14:25.102902"}
+{"input": {"feature1": 0.9845835873405305, "feature2": 3.444181241550587}, "output": {"prediction": 0.56}, "latency": 0.018314123153686523, "status_code": 200, "timestamp": "2025-07-15T10:14:25.228097"}
+{"input": {}, "latency": 0.019501924514770508, "status_code": 200, "timestamp": "2025-07-15T10:14:25.228646"}
+{"input": {"feature1": 1.0455432220076555, "feature2": 3.056869775636429}, "output": {"prediction": 0.478}, "latency": 0.09277105331420898, "status_code": 200, "timestamp": "2025-07-15T10:14:25.425880"}
+{"input": {}, "latency": 0.09380507469177246, "status_code": 200, "timestamp": "2025-07-15T10:14:25.426347"}
+{"input": {"feature1": 1.1981085838743062, "feature2": 3.0555979302196636}, "output": {"prediction": 0.434}, "latency": 0.02364802360534668, "status_code": 200, "timestamp": "2025-07-15T10:14:25.558501"}
+{"input": {}, "latency": 0.024594783782958984, "status_code": 200, "timestamp": "2025-07-15T10:14:25.558931"}
+{"input": {"feature1": 1.2785466205216114, "feature2": 2.495994147158952}, "output": {"prediction": 0.321}, "latency": 0.10179400444030762, "status_code": 200, "timestamp": "2025-07-15T10:14:25.764452"}
+{"input": {}, "latency": 0.10269975662231445, "status_code": 200, "timestamp": "2025-07-15T10:14:25.764882"}
+{"input": {"feature1": 0.8803584619888578, "feature2": 2.878882345185469}, "output": {"prediction": 0.029}, "latency": 0.07344412803649902, "status_code": 200, "timestamp": "2025-07-15T10:14:25.942405"}
+{"input": {}, "latency": 0.07452797889709473, "status_code": 200, "timestamp": "2025-07-15T10:14:25.943018"}
+{"input": {"feature1": 1.3073918159099598, "feature2": 2.678865191349446}, "output": {"prediction": 0.438}, "latency": 0.0975039005279541, "status_code": 200, "timestamp": "2025-07-15T10:14:26.149051"}
+{"input": {}, "latency": 0.09870576858520508, "status_code": 200, "timestamp": "2025-07-15T10:14:26.149774"}
+{"input": {"feature1": 1.0411118658783778, "feature2": 3.2189300163330223}, "output": {"prediction": 0.516}, "latency": 0.06920981407165527, "status_code": 200, "timestamp": "2025-07-15T10:14:26.325965"}
+{"input": {}, "latency": 0.07028698921203613, "status_code": 200, "timestamp": "2025-07-15T10:14:26.326575"}
+{"input": {"feature1": 1.0418746393358402, "feature2": 2.320025206298404}, "output": {"prediction": 0.729}, "latency": 0.0357356071472168, "status_code": 200, "timestamp": "2025-07-15T10:14:26.468532"}
+{"input": {}, "latency": 0.036702871322631836, "status_code": 200, "timestamp": "2025-07-15T10:14:26.469023"}
+{"input": {"feature1": 1.0665544620014573, "feature2": 3.3275502929968783}, "output": {"prediction": 0.947}, "latency": 0.09715390205383301, "status_code": 200, "timestamp": "2025-07-15T10:14:26.673320"}
+{"input": {}, "latency": 0.09819293022155762, "status_code": 200, "timestamp": "2025-07-15T10:14:26.673868"}
+{"input": {"feature1": 1.0779010977646803, "feature2": 2.1252943867934584}, "output": {"prediction": 0.64}, "latency": 0.09656500816345215, "status_code": 200, "timestamp": "2025-07-15T10:14:26.874469"}
+{"input": {}, "latency": 0.09765219688415527, "status_code": 200, "timestamp": "2025-07-15T10:14:26.875081"}
+{"input": {"feature1": 1.3360922712121597, "feature2": 3.9978760054640468}, "output": {"prediction": 0.014}, "latency": 0.0221710205078125, "status_code": 200, "timestamp": "2025-07-15T10:14:27.004682"}
+{"input": {}, "latency": 0.023112058639526367, "status_code": 200, "timestamp": "2025-07-15T10:14:27.005144"}
+{"input": {"feature1": 1.3520962520452509, "feature2": 3.36453688234371}, "output": {"prediction": 0.036}, "latency": 0.026582002639770508, "status_code": 200, "timestamp": "2025-07-15T10:14:27.140549"}
+{"input": {}, "latency": 0.027571916580200195, "status_code": 200, "timestamp": "2025-07-15T10:14:27.141055"}
+{"input": {"feature1": 1.1074402433207207, "feature2": 2.3220826076755046}, "output": {"prediction": 0.386}, "latency": 0.05513715744018555, "status_code": 200, "timestamp": "2025-07-15T10:14:27.303259"}
+{"input": {}, "latency": 0.056078195571899414, "status_code": 200, "timestamp": "2025-07-15T10:14:27.303721"}
+{"input": {"feature1": 0.8908658891251184, "feature2": 3.2470159464025183}, "output": {"prediction": 0.237}, "latency": 0.03709077835083008, "status_code": 200, "timestamp": "2025-07-15T10:14:27.449580"}
+{"input": {}, "latency": 0.038279056549072266, "status_code": 200, "timestamp": "2025-07-15T10:14:27.450321"}
+{"input": {"feature1": 0.878007051777107, "feature2": 2.9555354335906165}, "output": {"prediction": 0.807}, "latency": 0.07868170738220215, "status_code": 200, "timestamp": "2025-07-15T10:14:27.634050"}
+{"input": {}, "latency": 0.0798189640045166, "status_code": 200, "timestamp": "2025-07-15T10:14:27.634515"}
+{"input": {"feature1": 1.0436548660682614, "feature2": 2.213233412762624}, "output": {"prediction": 0.46}, "latency": 0.0764920711517334, "status_code": 200, "timestamp": "2025-07-15T10:14:27.819768"}
+{"input": {}, "latency": 0.0774688720703125, "status_code": 200, "timestamp": "2025-07-15T10:14:27.820238"}
+{"input": {"feature1": 1.3458765948752744, "feature2": 3.3010319720851737}, "output": {"prediction": 0.597}, "latency": 0.04073190689086914, "status_code": 200, "timestamp": "2025-07-15T10:14:27.965220"}
+{"input": {}, "latency": 0.04175376892089844, "status_code": 200, "timestamp": "2025-07-15T10:14:27.965771"}
+{"input": {"feature1": 1.2520256304770543, "feature2": 3.200823342151851}, "output": {"prediction": 0.661}, "latency": 0.03385424613952637, "status_code": 200, "timestamp": "2025-07-15T10:14:28.106526"}
+{"input": {}, "latency": 0.034780025482177734, "status_code": 200, "timestamp": "2025-07-15T10:14:28.106973"}
+{"input": {"feature1": 1.257163643938255, "feature2": 3.335457699020832}, "output": {"prediction": 0.545}, "latency": 0.10403203964233398, "status_code": 200, "timestamp": "2025-07-15T10:14:28.319714"}
+{"input": {}, "latency": 0.10495424270629883, "status_code": 200, "timestamp": "2025-07-15T10:14:28.320155"}
+{"input": {"feature1": 1.0630572672690384, "feature2": 3.1732880914165658}, "output": {"prediction": 0.706}, "latency": 0.03397989273071289, "status_code": 200, "timestamp": "2025-07-15T10:14:28.462882"}
+{"input": {}, "latency": 0.03507113456726074, "status_code": 200, "timestamp": "2025-07-15T10:14:28.463500"}
+{"input": {"feature1": 0.9753219731239153, "feature2": 3.6101304701230554}, "output": {"prediction": 0.708}, "latency": 0.1011209487915039, "status_code": 200, "timestamp": "2025-07-15T10:14:28.673054"}
+{"input": {}, "latency": 0.10205078125, "status_code": 200, "timestamp": "2025-07-15T10:14:28.673503"}
+{"input": {"feature1": 1.303516116476295, "feature2": 2.511116408654719}, "output": {"prediction": 0.41}, "latency": 0.048891305923461914, "status_code": 200, "timestamp": "2025-07-15T10:14:28.828788"}
+{"input": {}, "latency": 0.05015110969543457, "status_code": 200, "timestamp": "2025-07-15T10:14:28.829465"}
+{"input": {"feature1": 0.9855285511959038, "feature2": 2.975543315041591}, "output": {"prediction": 0.652}, "latency": 0.09951615333557129, "status_code": 200, "timestamp": "2025-07-15T10:14:29.037779"}
+{"input": {}, "latency": 0.10047602653503418, "status_code": 200, "timestamp": "2025-07-15T10:14:29.038276"}
+{"input": {"feature1": 1.1125036737191523, "feature2": 2.688019632310983}, "output": {"prediction": 0.325}, "latency": 0.025907039642333984, "status_code": 200, "timestamp": "2025-07-15T10:14:29.168455"}
+{"input": {}, "latency": 0.0269320011138916, "status_code": 200, "timestamp": "2025-07-15T10:14:29.168982"}
+{"input": {"feature1": 0.9338375218079028, "feature2": 3.3239577933152686}, "output": {"prediction": 0.587}, "latency": 0.015004158020019531, "status_code": 200, "timestamp": "2025-07-15T10:14:29.290470"}
+{"input": {}, "latency": 0.0159909725189209, "status_code": 200, "timestamp": "2025-07-15T10:14:29.290968"}
+{"input": {"feature1": 1.0266399273168374, "feature2": 2.2905537809223793}, "output": {"prediction": 0.655}, "latency": 0.026746273040771484, "status_code": 200, "timestamp": "2025-07-15T10:14:29.424988"}
+{"input": {}, "latency": 0.027781963348388672, "status_code": 200, "timestamp": "2025-07-15T10:14:29.425493"}
+{"input": {"feature1": 0.8820401420662567, "feature2": 3.0211803358101537}, "output": {"prediction": 0.157}, "latency": 0.08710122108459473, "status_code": 200, "timestamp": "2025-07-15T10:14:29.621667"}
+{"input": {}, "latency": 0.08860278129577637, "status_code": 200, "timestamp": "2025-07-15T10:14:29.622693"}
+{"input": {"feature1": 0.8989618910705791, "feature2": 2.7630835768392115}, "output": {"prediction": 0.05}, "latency": 0.08323502540588379, "status_code": 200, "timestamp": "2025-07-15T10:14:29.816332"}
+{"input": {}, "latency": 0.0849609375, "status_code": 200, "timestamp": "2025-07-15T10:14:29.817219"}
+{"input": {"feature1": 1.1177227834442665, "feature2": 2.9509188955921855}, "output": {"prediction": 0.244}, "latency": 0.02555704116821289, "status_code": 200, "timestamp": "2025-07-15T10:14:29.948900"}
+{"input": {}, "latency": 0.026569128036499023, "status_code": 200, "timestamp": "2025-07-15T10:14:29.949349"}
+{"input": {"feature1": 0.8485063220233814, "feature2": 3.174602040545312}, "output": {"prediction": 0.698}, "latency": 0.02522873878479004, "status_code": 200, "timestamp": "2025-07-15T10:14:30.082911"}
+{"input": {}, "latency": 0.026157855987548828, "status_code": 200, "timestamp": "2025-07-15T10:14:30.083370"}
+{"input": {"feature1": 0.8638907961249942, "feature2": 3.078463812401964}, "output": {"prediction": 0.064}, "latency": 0.022211790084838867, "status_code": 200, "timestamp": "2025-07-15T10:14:30.213068"}
+{"input": {}, "latency": 0.023150920867919922, "status_code": 200, "timestamp": "2025-07-15T10:14:30.213533"}
+{"input": {"feature1": 0.9174831456048391, "feature2": 2.7198842502377234}, "output": {"prediction": 0.703}, "latency": 0.07984399795532227, "status_code": 200, "timestamp": "2025-07-15T10:14:30.398030"}
+{"input": {}, "latency": 0.08127331733703613, "status_code": 200, "timestamp": "2025-07-15T10:14:30.398639"}
+{"input": {"feature1": 0.9426955052485171, "feature2": 2.637885531675711}, "output": {"prediction": 0.202}, "latency": 0.09066390991210938, "status_code": 200, "timestamp": "2025-07-15T10:14:30.598369"}
+{"input": {}, "latency": 0.09189105033874512, "status_code": 200, "timestamp": "2025-07-15T10:14:30.598944"}
+{"input": {"feature1": 0.9040298116390294, "feature2": 2.701865247416375}, "output": {"prediction": 0.383}, "latency": 0.09858083724975586, "status_code": 200, "timestamp": "2025-07-15T10:14:30.805209"}
+{"input": {}, "latency": 0.09978699684143066, "status_code": 200, "timestamp": "2025-07-15T10:14:30.805805"}
+{"input": {"feature1": 1.050506764322527, "feature2": 3.1436504348265975}, "output": {"prediction": 0.265}, "latency": 0.024523019790649414, "status_code": 200, "timestamp": "2025-07-15T10:14:30.935571"}
+{"input": {}, "latency": 0.025650978088378906, "status_code": 200, "timestamp": "2025-07-15T10:14:30.936130"}
+{"input": {"feature1": 1.1106405324162678, "feature2": 3.1819908373994865}, "output": {"prediction": 0.863}, "latency": 0.060483694076538086, "status_code": 200, "timestamp": "2025-07-15T10:14:31.101971"}
+{"input": {}, "latency": 0.061799049377441406, "status_code": 200, "timestamp": "2025-07-15T10:14:31.102554"}
+{"input": {"feature1": 0.9376025857872723, "feature2": 2.8487847968358375}, "output": {"prediction": 0.301}, "latency": 0.04227399826049805, "status_code": 200, "timestamp": "2025-07-15T10:14:31.251333"}
+{"input": {}, "latency": 0.04369831085205078, "status_code": 200, "timestamp": "2025-07-15T10:14:31.252185"}
+{"input": {"feature1": 0.7479052644752311, "feature2": 3.0305032724884353}, "output": {"prediction": 0.56}, "latency": 0.08412313461303711, "status_code": 200, "timestamp": "2025-07-15T10:14:31.443073"}
+{"input": {}, "latency": 0.0856482982635498, "status_code": 200, "timestamp": "2025-07-15T10:14:31.443775"}
+{"input": {"feature1": 1.2580737715030383, "feature2": 2.0259094544332483}, "output": {"prediction": 0.922}, "latency": 0.08930301666259766, "status_code": 200, "timestamp": "2025-07-15T10:14:31.637699"}
+{"input": {}, "latency": 0.09021592140197754, "status_code": 200, "timestamp": "2025-07-15T10:14:31.638125"}
+{"input": {"feature1": 0.8949415535791329, "feature2": 2.9831680696177205}, "output": {"prediction": 0.897}, "latency": 0.019629240036010742, "status_code": 200, "timestamp": "2025-07-15T10:14:31.762167"}
+{"input": {}, "latency": 0.020546913146972656, "status_code": 200, "timestamp": "2025-07-15T10:14:31.762610"}
+{"input": {"feature1": 0.8741836987691259, "feature2": 3.4146068272154126}, "output": {"prediction": 0.693}, "latency": 0.08958196640014648, "status_code": 200, "timestamp": "2025-07-15T10:14:31.955933"}
+{"input": {}, "latency": 0.09051227569580078, "status_code": 200, "timestamp": "2025-07-15T10:14:31.956387"}
+{"input": {"feature1": 0.8030597618522395, "feature2": 2.5262959250230246}, "output": {"prediction": 0.989}, "latency": 0.07560086250305176, "status_code": 200, "timestamp": "2025-07-15T10:14:32.140934"}
+{"input": {}, "latency": 0.07669901847839355, "status_code": 200, "timestamp": "2025-07-15T10:14:32.141530"}
+{"input": {"feature1": 1.3550135900392755, "feature2": 2.5401329105419244}, "output": {"prediction": 0.347}, "latency": 0.09158778190612793, "status_code": 200, "timestamp": "2025-07-15T10:14:32.339840"}
+{"input": {}, "latency": 0.09251213073730469, "status_code": 200, "timestamp": "2025-07-15T10:14:32.340281"}
+{"input": {"feature1": 0.9518646918450123, "feature2": 1.5403704246862526}, "output": {"prediction": 0.629}, "latency": 0.07267999649047852, "status_code": 200, "timestamp": "2025-07-15T10:14:32.519579"}
+{"input": {}, "latency": 0.07364773750305176, "status_code": 200, "timestamp": "2025-07-15T10:14:32.520068"}
+{"input": {"feature1": 1.0260207841923032, "feature2": 3.7251620947156}, "output": {"prediction": 0.426}, "latency": 0.03432297706604004, "status_code": 200, "timestamp": "2025-07-15T10:14:32.659694"}
+{"input": {}, "latency": 0.035421133041381836, "status_code": 200, "timestamp": "2025-07-15T10:14:32.660262"}
+{"input": {"feature1": 1.0329234536404308, "feature2": 3.409892528644259}, "output": {"prediction": 0.396}, "latency": 0.05484127998352051, "status_code": 200, "timestamp": "2025-07-15T10:14:32.824263"}
+{"input": {}, "latency": 0.05604290962219238, "status_code": 200, "timestamp": "2025-07-15T10:14:32.824868"}
+{"input": {"feature1": 1.187809184848388, "feature2": 2.2383704250913206}, "output": {"prediction": 0.118}, "latency": 0.06599092483520508, "status_code": 200, "timestamp": "2025-07-15T10:14:32.998626"}
+{"input": {}, "latency": 0.06707119941711426, "status_code": 200, "timestamp": "2025-07-15T10:14:32.999221"}
+{"input": {"feature1": 0.7665910035124905, "feature2": 3.440174600387877}, "output": {"prediction": 0.651}, "latency": 0.030968904495239258, "status_code": 200, "timestamp": "2025-07-15T10:14:33.138914"}
+{"input": {}, "latency": 0.03209710121154785, "status_code": 200, "timestamp": "2025-07-15T10:14:33.139507"}
+{"input": {"feature1": 0.9286839815644468, "feature2": 3.703867097543218}, "output": {"prediction": 0.446}, "latency": 0.08882498741149902, "status_code": 200, "timestamp": "2025-07-15T10:14:33.335831"}
+{"input": {}, "latency": 0.0898427963256836, "status_code": 200, "timestamp": "2025-07-15T10:14:33.336360"}
+{"input": {"feature1": 0.8701336756568778, "feature2": 3.4978789972802105}, "output": {"prediction": 0.693}, "latency": 0.09039902687072754, "status_code": 200, "timestamp": "2025-07-15T10:14:33.532776"}
+{"input": {}, "latency": 0.09133005142211914, "status_code": 200, "timestamp": "2025-07-15T10:14:33.533229"}
+{"input": {"feature1": 1.0230474347777545, "feature2": 2.784652906193657}, "output": {"prediction": 0.624}, "latency": 0.07495594024658203, "status_code": 200, "timestamp": "2025-07-15T10:14:33.716078"}
+{"input": {}, "latency": 0.07596707344055176, "status_code": 200, "timestamp": "2025-07-15T10:14:33.716619"}
+{"input": {"feature1": 0.9074764082787348, "feature2": 2.4438974292527145}, "output": {"prediction": 0.601}, "latency": 0.03258967399597168, "status_code": 200, "timestamp": "2025-07-15T10:14:33.858082"}
+{"input": {}, "latency": 0.03367304801940918, "status_code": 200, "timestamp": "2025-07-15T10:14:33.858624"}
+{"input": {"feature1": 0.8029927487277937, "feature2": 2.0346469857172984}, "output": {"prediction": 0.598}, "latency": 0.08960366249084473, "status_code": 200, "timestamp": "2025-07-15T10:14:34.052982"}
+{"input": {}, "latency": 0.09056210517883301, "status_code": 200, "timestamp": "2025-07-15T10:14:34.053424"}
+{"input": {"feature1": 0.996443306819237, "feature2": 2.6607014166237866}, "output": {"prediction": 0.764}, "latency": 0.01931285858154297, "status_code": 200, "timestamp": "2025-07-15T10:14:34.177122"}
+{"input": {}, "latency": 0.020383119583129883, "status_code": 200, "timestamp": "2025-07-15T10:14:34.177609"}
+{"input": {"feature1": 0.9005868976821928, "feature2": 3.523941477051775}, "output": {"prediction": 0.933}, "latency": 0.07436299324035645, "status_code": 200, "timestamp": "2025-07-15T10:14:34.356088"}
+{"input": {}, "latency": 0.07529187202453613, "status_code": 200, "timestamp": "2025-07-15T10:14:34.356544"}
+{"input": {"feature1": 0.9233614024794733, "feature2": 3.2438185346262367}, "output": {"prediction": 0.814}, "latency": 0.08241486549377441, "status_code": 200, "timestamp": "2025-07-15T10:14:34.544844"}
+{"input": {}, "latency": 0.08334779739379883, "status_code": 200, "timestamp": "2025-07-15T10:14:34.545314"}
+{"input": {"feature1": 1.1872646682975372, "feature2": 2.245021939884473}, "output": {"prediction": 0.222}, "latency": 0.05568099021911621, "status_code": 200, "timestamp": "2025-07-15T10:14:34.707671"}
+{"input": {}, "latency": 0.056761741638183594, "status_code": 200, "timestamp": "2025-07-15T10:14:34.708243"}
+{"input": {"feature1": 0.760727992013033, "feature2": 2.493148045917811}, "output": {"prediction": 0.674}, "latency": 0.021921873092651367, "status_code": 200, "timestamp": "2025-07-15T10:14:34.835354"}
+{"input": {}, "latency": 0.022823810577392578, "status_code": 200, "timestamp": "2025-07-15T10:14:34.835775"}
+{"input": {"feature1": 1.1461791836830137, "feature2": 1.9452249549400178}, "output": {"prediction": 0.672}, "latency": 0.04280877113342285, "status_code": 200, "timestamp": "2025-07-15T10:14:34.982733"}
+{"input": {}, "latency": 0.04383707046508789, "status_code": 200, "timestamp": "2025-07-15T10:14:34.983224"}
+{"input": {"feature1": 1.5576331787459181, "feature2": 2.7966101985132665}, "output": {"prediction": 0.839}, "latency": 0.04845905303955078, "status_code": 200, "timestamp": "2025-07-15T10:14:35.137805"}
+{"input": {}, "latency": 0.04938912391662598, "status_code": 200, "timestamp": "2025-07-15T10:14:35.138262"}
+{"input": {"feature1": 0.9633347871920777, "feature2": 2.4810635819685256}, "output": {"prediction": 0.321}, "latency": 0.046011924743652344, "status_code": 200, "timestamp": "2025-07-15T10:14:35.290342"}
+{"input": {}, "latency": 0.04721689224243164, "status_code": 200, "timestamp": "2025-07-15T10:14:35.291079"}
+{"input": {"feature1": 0.8049370759996197, "feature2": 2.922394026883652}, "output": {"prediction": 0.284}, "latency": 0.07517385482788086, "status_code": 200, "timestamp": "2025-07-15T10:14:35.475252"}
+{"input": {}, "latency": 0.07631206512451172, "status_code": 200, "timestamp": "2025-07-15T10:14:35.475857"}
+{"input": {"feature1": 1.0284297582226263, "feature2": 2.8015682879904262}, "output": {"prediction": 0.36}, "latency": 0.07568883895874023, "status_code": 200, "timestamp": "2025-07-15T10:14:35.658181"}
+{"input": {}, "latency": 0.07669997215270996, "status_code": 200, "timestamp": "2025-07-15T10:14:35.658645"}
+{"input": {"feature1": 1.012503272677112, "feature2": 2.8282062325814734}, "output": {"prediction": 0.108}, "latency": 0.049767255783081055, "status_code": 200, "timestamp": "2025-07-15T10:14:35.815829"}
+{"input": {}, "latency": 0.05079984664916992, "status_code": 200, "timestamp": "2025-07-15T10:14:35.816277"}
+{"input": {"feature1": 1.161232267949368, "feature2": 3.51999520148081}, "output": {"prediction": 0.118}, "latency": 0.08540892601013184, "status_code": 200, "timestamp": "2025-07-15T10:14:36.006209"}
+{"input": {}, "latency": 0.0869140625, "status_code": 200, "timestamp": "2025-07-15T10:14:36.007005"}
+{"input": {"feature1": 0.983058668149956, "feature2": 3.728032473897379}, "output": {"prediction": 0.56}, "latency": 0.07502198219299316, "status_code": 200, "timestamp": "2025-07-15T10:14:36.188334"}
+{"input": {}, "latency": 0.07631611824035645, "status_code": 200, "timestamp": "2025-07-15T10:14:36.189066"}
+{"input": {"feature1": 1.1441905847000886, "feature2": 2.7574088041415488}, "output": {"prediction": 0.679}, "latency": 0.023462772369384766, "status_code": 200, "timestamp": "2025-07-15T10:14:36.321841"}
+{"input": {}, "latency": 0.02469015121459961, "status_code": 200, "timestamp": "2025-07-15T10:14:36.322354"}
+{"input": {"feature1": 1.0705011605862413, "feature2": 2.888426385587468}, "output": {"prediction": 0.782}, "latency": 0.09213399887084961, "status_code": 200, "timestamp": "2025-07-15T10:14:36.521215"}
+{"input": {}, "latency": 0.09314990043640137, "status_code": 200, "timestamp": "2025-07-15T10:14:36.521690"}
+{"input": {"feature1": 1.3649507504421998, "feature2": 1.9587218207020798}, "output": {"prediction": 0.722}, "latency": 0.05628490447998047, "status_code": 200, "timestamp": "2025-07-15T10:14:36.684145"}
+{"input": {}, "latency": 0.05727505683898926, "status_code": 200, "timestamp": "2025-07-15T10:14:36.684655"}
+{"input": {"feature1": 0.9471884251527927, "feature2": 3.0980413937434523}, "output": {"prediction": 0.614}, "latency": 0.06884407997131348, "status_code": 200, "timestamp": "2025-07-15T10:14:36.861678"}
+{"input": {}, "latency": 0.07014894485473633, "status_code": 200, "timestamp": "2025-07-15T10:14:36.862485"}
+{"input": {"feature1": 1.1299133833112396, "feature2": 2.844654432527672}, "output": {"prediction": 0.066}, "latency": 0.04873013496398926, "status_code": 200, "timestamp": "2025-07-15T10:14:37.018890"}
+{"input": {}, "latency": 0.05012679100036621, "status_code": 200, "timestamp": "2025-07-15T10:14:37.019415"}
+{"input": {"feature1": 0.9633298202351229, "feature2": 2.3680370101388792}, "output": {"prediction": 0.171}, "latency": 0.023715734481811523, "status_code": 200, "timestamp": "2025-07-15T10:14:37.148066"}
+{"input": {}, "latency": 0.024634122848510742, "status_code": 200, "timestamp": "2025-07-15T10:14:37.148501"}
+{"input": {"feature1": 1.4451756718151452, "feature2": 2.885686840835318}, "output": {"prediction": 0.852}, "latency": 0.0869288444519043, "status_code": 200, "timestamp": "2025-07-15T10:14:37.342431"}
+{"input": {}, "latency": 0.08787274360656738, "status_code": 200, "timestamp": "2025-07-15T10:14:37.342898"}
+{"input": {"feature1": 1.1092815035924422, "feature2": 2.5746616208360953}, "output": {"prediction": 0.822}, "latency": 0.025597095489501953, "status_code": 200, "timestamp": "2025-07-15T10:14:37.472775"}
+{"input": {}, "latency": 0.02669692039489746, "status_code": 200, "timestamp": "2025-07-15T10:14:37.473280"}
+{"input": {"feature1": 1.1735101203183593, "feature2": 3.2768406659641687}, "output": {"prediction": 0.846}, "latency": 0.07902002334594727, "status_code": 200, "timestamp": "2025-07-15T10:14:37.657219"}
+{"input": {}, "latency": 0.08030200004577637, "status_code": 200, "timestamp": "2025-07-15T10:14:37.657977"}
+{"input": {"feature1": 1.0016096065962086, "feature2": 3.5537355992605963}, "output": {"prediction": 0.148}, "latency": 0.09545493125915527, "status_code": 200, "timestamp": "2025-07-15T10:14:37.858116"}
+{"input": {}, "latency": 0.09650492668151855, "status_code": 200, "timestamp": "2025-07-15T10:14:37.858654"}
+{"input": {"feature1": 1.096279806063858, "feature2": 3.2128277063052084}, "output": {"prediction": 0.416}, "latency": 0.10119986534118652, "status_code": 200, "timestamp": "2025-07-15T10:14:38.064737"}
+{"input": {}, "latency": 0.1022028923034668, "status_code": 200, "timestamp": "2025-07-15T10:14:38.065203"}
+{"input": {"feature1": 0.9954389719379962, "feature2": 2.9761814229222803}, "output": {"prediction": 0.486}, "latency": 0.0961458683013916, "status_code": 200, "timestamp": "2025-07-15T10:14:38.265302"}
+{"input": {}, "latency": 0.09710001945495605, "status_code": 200, "timestamp": "2025-07-15T10:14:38.265744"}

@@ -9,4 +9,6 @@ def predict():
     time.sleep(random.uniform(0.01, 0.1))  # simulate processing delay
     return jsonify({"prediction": round(random.uniform(0, 1), 3)})
 
+
 app.run(port=9000)
+
