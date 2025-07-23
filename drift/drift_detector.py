@@ -15,8 +15,9 @@ def read_logs(path="storage/inference_logs.jsonl"):
 
     df = pd.DataFrame(valid_logs)
     df_input = pd.json_normalize(df["input"])
+    df_output = pd.json_normalize(df["output"])
     df_input["timestamp"] = pd.to_datetime(df["timestamp"], errors="coerce")
-    return df_input
+    return df_input, df_output
 
 
 def calculate_psi(expected, actual, buckets=10):
@@ -32,14 +33,39 @@ def calculate_psi(expected, actual, buckets=10):
     return psi
 
 
-def detect_drift():
+def detect_data_drift():
     """Main function to detect drift."""
-    df = read_logs()
+    df_input, _ = read_logs()
 
     # Split into baseline (older half) and current (newer half)
-    mid_point = len(df) // 2
-    baseline_df = df.iloc[:mid_point]
-    current_df = df.iloc[mid_point:]
+    mid_point = len(df_input) // 2
+    baseline_df = df_input.iloc[:mid_point]
+    current_df = df_input.iloc[mid_point:]
+
+    print(f"\nRunning drift detection — {datetime.now().isoformat()}")
+    for feature in baseline_df.columns:
+        if feature == "timestamp":
+            continue
+        try:
+            psi_score = calculate_psi(baseline_df[feature], current_df[feature])
+            print(f"Feature `{feature}` PSI: {psi_score:.3f} — ", end="")
+            if psi_score < 0.1:
+                print("No drift")
+            elif psi_score < 0.2:
+                print("Slight drift")
+            else:
+                print("Significant drift detected!")
+        except Exception as e:
+            print(f"Feature `{feature}` — Error: {e}")
+
+def detect_model_drift():
+    """Main function to detect drift."""
+    _, df_output = read_logs()
+
+    # Split into baseline (older half) and current (newer half)
+    mid_point = len(df_output) // 2
+    baseline_df = df_output.iloc[:mid_point]
+    current_df = df_output.iloc[mid_point:]
 
     print(f"\nRunning drift detection — {datetime.now().isoformat()}")
     for feature in baseline_df.columns:
@@ -59,4 +85,5 @@ def detect_drift():
 
 
 if __name__ == "__main__":
-    detect_drift()
+    detect_model_drift()
+    detect_data_drift()

@@ -1,14 +1,10 @@
-from flask import Flask, request, jsonify
-import time
-import random
+from sklearn.datasets import load_iris
+from sklearn.ensemble import RandomForestClassifier
+import pickle
 
-app = Flask(__name__)
+X, y = load_iris(return_X_y=True)
+model = RandomForestClassifier()
+model.fit(X, y)
 
-@app.route("/predict", methods=["POST"])
-def predict():
-    time.sleep(random.uniform(0.01, 0.1))  # simulate processing delay
-    return jsonify({"prediction": round(random.uniform(0, 1), 3)})
-
-
-app.run(port=9000)
-
+with open("model.pkl", "wb") as f:
+    pickle.dump(model, f)
