@@ -6,7 +6,7 @@ from api.router import router as api_router
 import time
 from datetime import datetime
 from storage.log_writer import log_inference_to_db
-from drift.drift_detector import detect_data_drift
+from drift.drift_detector import run_drift_detector
 
 from apscheduler.schedulers.background import BackgroundScheduler
 from database.db import init_db
@@ -46,5 +46,6 @@ async def log_and_forward(request: Request, call_next):
 app.include_router(api_router)
 
 scheduler = BackgroundScheduler()
-scheduler.add_job(detect_data_drift, 'interval', hours=1)
+scheduler.add_job(run_drift_detector, 'interval', seconds=10)  # Run every 10 seconds
 scheduler.start()
+

@@ -7,6 +7,8 @@ from database.models import InferenceLog
 from datetime import datetime
 
 async def log_inference_to_db(payload: dict):
+
+    # you have this statement to ensure that session is deleted and not zombie
     async with SessionLocal() as session:
         log = InferenceLog(
             input_data=payload.get("input"),

@@ -2,7 +2,37 @@ import pandas as pd
 import numpy as np
 import json
 from datetime import datetime
+from sqlalchemy.future import select
+from database.models import InferenceLog  # or wherever you defined it
+from database.db import SessionLocal
+import asyncio
 
+async def get_logs(session, limit: int = 1000):
+    result = await session.execute(
+        select(InferenceLog).order_by(InferenceLog.timestamp.desc()).limit(limit)
+    )
+    return result.scalars().all()
+
+def normalize_logs(logs):
+    raw = [
+        {
+            "timestamp": log.timestamp,
+            "latency": log.latency,
+            "status_code": log.status_code,
+            **log.input_data,
+            **(log.output_data or {})
+        }
+        for log in logs
+    ]
+    df = pd.DataFrame(raw)
+    return df
+
+def unpack_feature_list(df):
+    if "features" in df.columns:
+        features_df = pd.DataFrame(df["features"].tolist())
+        features_df.columns = [f"feature_{i}" for i in features_df.columns]
+        df = pd.concat([df.drop(columns=["features"]), features_df], axis=1)
+    return df
 
 def read_logs(path="storage/inference_logs.jsonl"):
     """Load and normalize the inference logs."""
@@ -33,14 +63,17 @@ def calculate_psi(expected, actual, buckets=10):
     return psi
 
 
-def detect_data_drift():
+async def detect_data_drift():
     """Main function to detect drift."""
-    df_input, _ = read_logs()
+    async with SessionLocal() as session:
+        logs = await get_logs(session)
+        df = normalize_logs(logs)
+        df = unpack_feature_list(df)
 
     # Split into baseline (older half) and current (newer half)
-    mid_point = len(df_input) // 2
-    baseline_df = df_input.iloc[:mid_point]
-    current_df = df_input.iloc[mid_point:]
+    mid_point = len(df) // 2
+    baseline_df = df.iloc[:mid_point]
+    current_df = df.iloc[mid_point:]
 
     print(f"\nRunning drift detection — {datetime.now().isoformat()}")
     for feature in baseline_df.columns:
@@ -82,6 +115,9 @@ def detect_model_drift():
                 print("Significant drift detected!")
         except Exception as e:
             print(f"Feature `{feature}` — Error: {e}")
+
+def run_drift_detector():
+    asyncio.run(detect_data_drift())
 
 
 if __name__ == "__main__":
