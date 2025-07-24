@@ -63,12 +63,15 @@ def calculate_psi(expected, actual, buckets=10):
     return psi
 
 
-async def detect_data_drift():
+async def detect_data_drift(return_df=True):
     """Main function to detect drift."""
     async with SessionLocal() as session:
         logs = await get_logs(session)
         df = normalize_logs(logs)
-        df = unpack_feature_list(df)
+    
+    if return_df:
+        return df
+    
 
     # Split into baseline (older half) and current (newer half)
     mid_point = len(df) // 2
@@ -116,10 +119,10 @@ def detect_model_drift():
         except Exception as e:
             print(f"Feature `{feature}` — Error: {e}")
 
-def run_drift_detector():
-    asyncio.run(detect_data_drift())
+def run_drift_detector(return_df=True):
+    return asyncio.run(detect_data_drift(return_df))
 
 
 if __name__ == "__main__":
-    detect_model_drift()
-    detect_data_drift()
+    detect_model_drift(False)
+    detect_data_drift(False)
